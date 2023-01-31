@@ -1,0 +1,31 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.paragraph {
+    margin: 0 15px 20px 15px;
+
+}
+
+.items {
+    background-color: aliceblue;
+    text-align: center;
+    margin: 30% auto;
+    border-radius: 5%;
+    width: fit-content;
+}
+
+.qr-code {
+    margin: 20px;
+    border-radius: 5%;
+}
+
+.sub-head {
+    font-weight: 700;
+}
