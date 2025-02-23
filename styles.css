@@ -1,29 +1,41 @@
 body {
     background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,p {
+    font-size: 0.9375rem;
+    text-align: center;
+
 }
 
 p {
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
     font-weight: 400;
+    margin-bottom: 0.875rem;
 }
 
 .paragraph {
-    margin: 0 15px 20px 15px;
+    margin: 0.9375rem 0.9375rem 0 0.9375rem;
 
 }
 
 .items {
     background-color: aliceblue;
     text-align: center;
-    margin: 30% auto;
     border-radius: 5%;
-    width: fit-content;
+    max-width: 320px;
+    padding: 0.9375rem;
 }
 
+
 .qr-code {
-    margin: 20px;
+    margin: 1.25em;
     border-radius: 5%;
+    max-width: 100%;
 }
 
 .sub-head {
